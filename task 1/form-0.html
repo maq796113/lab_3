@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Application Form</title>
+	</head>
+
+	<body>
+		<h3><b>Travel Reservation Form</b></h3>
+		<h5><b>* denotes mandatory</b></h5>
+		<br>
+		<form>
+			Full name*:<br><input type="text" size="20" placeholder="FirstName LastName">
+			<br>
+			Email address*:<br><input type="text" size="20" placeholder="EMAIL_ADDRESS">
+			<br>
+			Select Tour Package*: <br><select name="dropdown"> 
+			<option value = "comp" selected> </option>
+			<option value = "Premium"> Premium </option>
+			<option value = "Starter"> Starter </option>
+			<br>
+			<br>Arrival date*:<br><input type="date*" size="15" placeholder="m/d/y"> <br>
+			Number of persons*:<br><input type="number" size="15" placeholder="UNKNOWN TYPE"><br>
+			What would you want to avail?*<br><input type="checkbox" name="option1" value="boarding">
+			<label for="opton1"> Boarding</label><br>
+			<input type="checkbox" name="option2" value="fooding">
+			<label for="option2"> Fooding</label><br>
+			<input type="checkbox" name="option3" value="Sight seeing">
+			<label for="option3"> Sight seeing</label><br>
+			Discount Coupon Code*:<br><input type="number" size="20" placeholder="UNKNOWN TYPE">
+			<br>
+			Terms and conditions*<br><input type="radio" name="op1" value="1">I agree
+			<input type="radio" name="op2" value="0">I disagree
+			<br>
+			<button type="button"> Complete reservation</button>
+		</form>
+	</body>
+</html>
